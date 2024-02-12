@@ -1,0 +1,14 @@
+{
+  "name": "playgrounds",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Patricio Beckmann <pbeckmann@brightti.com>",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "react": "npm run --workspace=@brightti/react"
+  }
+}
