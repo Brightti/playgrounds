@@ -9,6 +9,6 @@
     "apps/*"
   ],
   "scripts": {
-    "react": "npm run --workspace=@brightti/react"
+    "react": "npm run --workspace=@playgrounds/react"
   }
 }

@@ -1,35 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrighttiStreamingProvider } from "@brightti/react"
+import { Streaming } from "./Streaming"
 
-function App() {
-  const [count, setCount] = useState(0)
 
+export const App: React.FC = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <BrighttiStreamingProvider config={{
+      AutoConnect: true, // autoconect to queue and then streaming, default: false
+      Mode: 'test', // point to staging or production, default: production
+      AutoConnectQueue: true, // autoconnect to queue. (if AutoConnect its set to true, AutoConnectQueue not take effect). default: false
+      AutoConnectStreaming: true, // autoconnect to streaming when queue finish. (if AutoConnect its set to true, AutoConnectStreaming not take effect). default: false
+      AutoPlayVideo: true, // When video is ready automatically start playing (some browsers fails whitout interaction, use StartVideoMuted true to autoplay whitout human interaction), default: true
+      StartVideoMuted: true, // start the video without audio, default: false
+      HoveringMouse: false, // Either locked mouse, where the pointer is consumed by the video and locked to it, or hovering mouse, where the mouse is not consumed. default: false
+    }}>
+      <Streaming />
+    </BrighttiStreamingProvider>
   )
 }
 
-export default App
