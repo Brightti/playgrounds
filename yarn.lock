@@ -7,17 +7,17 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@brightti/react@^0.0.0-alpha.12":
-  version "0.0.0-alpha.12"
-  resolved "https://npm.pkg.github.com/download/@brightti/react/0.0.0-alpha.12/1d1c5bdb220e2061d6ab5fd00494520a65dbd212#1d1c5bdb220e2061d6ab5fd00494520a65dbd212"
-  integrity sha512-1mPOz+ddi6Y0uPgf3YfVOPHHMC6eUQAlr4EuofIO5s8LgF3reGutiJ7VvshKE6OnyGr9ZWvvbLUJ9YTwWPk7VQ==
+"@brightti/react@0.0.0":
+  version "0.0.0"
+  resolved "https://npm.pkg.github.com/download/@brightti/react/0.0.0/427250616d105f2959ffd7f6fd1b815bdcc61263#427250616d105f2959ffd7f6fd1b815bdcc61263"
+  integrity sha512-6C4wznlk6Ddl8sG19RXYMUjIz5Kyeh1z2spshrBylknEKoedSATbpQxXC981JJyzSvY4z/tigstFvaz5V+fP+g==
   dependencies:
-    "@brightti/streaming" "0.0.0-alpha.12"
+    "@brightti/streaming" "0.0.0"
 
-"@brightti/streaming@0.0.0-alpha.12":
-  version "0.0.0-alpha.12"
-  resolved "https://npm.pkg.github.com/download/@brightti/streaming/0.0.0-alpha.12/d628cc98c16fa77bb4feb2bf4f3c84b2ce29a238#d628cc98c16fa77bb4feb2bf4f3c84b2ce29a238"
-  integrity sha512-msAzFkB81t+lWOARkk9ZmuGT6zrmXEnlvoeyTfW3b1pRNzvXGrdzWaDViZXwAfJOi9G27VlO79YTSUdUOQ8CBw==
+"@brightti/streaming@0.0.0":
+  version "0.0.0"
+  resolved "https://npm.pkg.github.com/download/@brightti/streaming/0.0.0/814dba6ce0b98cfa2e962711618c226729333d6f#814dba6ce0b98cfa2e962711618c226729333d6f"
+  integrity sha512-M4skEdi2fhItVWYiXEBkF7os013jPx7+jq2v2t7SXv+UFGwaIpOnucn2L/hUOww1/Ng9MLbiDMroZo9WoCgZKA==
 
 "@esbuild/aix-ppc64@0.19.12":
   version "0.19.12"
